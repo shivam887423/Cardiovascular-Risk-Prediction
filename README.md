@@ -62,3 +62,21 @@ Cardiovascular_risk_df: This dataframe is a created directly from the given file
 
 # Exploratory Data Analysis
 
+EDA Visualization is performed by using seaborn libraries with various plots like histogram, violin plot, bar plot, etc. We have used these plots for describing correlations, for relationship of sex and person who is smoking or not, other attributes and their affect on target variable CHD. Visualizations comes in handy to do Univariate-variate and multi-variate analysis.
+
+# Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
+
+**Bar Plot.**
+
+**Histogram.**
+
+**Scatter Plot.**
+
+**Pie Chart.**
+
+**Line Plot.**
+
+**Heatmap.**
+
+**Box Plot**
+
