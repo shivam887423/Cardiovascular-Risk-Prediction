@@ -113,6 +113,32 @@ Simple models are easier to interpret.
 
 Shorter training times
 
+# Models Selection:
+
+**Logistic Regression Model**
+
+**k-nearest neighbor**
+
+3)**Decision Tree**
+
+4)**Random Forest**
+
+**1.Logistic Regression:(With and Without Hyper-parameter Tunning)**
+
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
+
+**2.K-nearest Neighbour: (With and Without Hyper-parameter Tunning)**
+
+The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and regression problems. It's easy to implement and understand, but has a major drawback of becoming significantly slows as the size of that data in use grows.
+
+**3.Decision Tree: (With and Without Hyper-parameter Tunning)**
+
+Decision trees help you to evaluate your options. Decision Trees are excellent tools for helping you to choose between several courses of action. They provide a highly effective structure within which you can lay out options and investigate the possible outcomes of choosing those options.
+
+**4.Random Forest Classifier:(Ensemble technique based on bagging)**
+
+A Random Forest is a reliable ensemble of multiple Decision Trees (or CARTs); though more popular for classification, than regression applications. Here, the individual trees are built via bagging (i.e., aggregation of bootstraps which are nothing but multiple train datasets created via sampling of records with replacement) and split using fewer features. The resulting diverse forest of uncorrelated trees exhibits reduced variance; therefore, is more robust towards change in data and carries its prediction accuracy to new data. However, the algorithm does not work well for datasets having a lot of outliers, something which needs addressing prior to the model building.
+
 
 
 
