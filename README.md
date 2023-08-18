@@ -99,5 +99,20 @@ EDA Visualization is performed by using seaborn libraries with various plots lik
 
 Machine Learning is performed only on numerical values, so there might be some column which do not have numerical values. Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering. We performed this technique on attributes sex and is smoking.
 
+# Feature Selection:
+
+Feature selection or variable selection is the process of selecting a subset of relevant features or variables from the total features of a level in a data set to build machine learning algorithms.
+
+**Advantages of selecting features:**
+
+There are various advantages of feature selection process. These are as follows:
+
+Improved accuracy
+
+Simple models are easier to interpret.
+
+Shorter training times
+
+
 
 
