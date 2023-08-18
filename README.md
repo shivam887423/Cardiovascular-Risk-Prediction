@@ -139,6 +139,27 @@ Decision trees help you to evaluate your options. Decision Trees are excellent t
 
 A Random Forest is a reliable ensemble of multiple Decision Trees (or CARTs); though more popular for classification, than regression applications. Here, the individual trees are built via bagging (i.e., aggregation of bootstraps which are nothing but multiple train datasets created via sampling of records with replacement) and split using fewer features. The resulting diverse forest of uncorrelated trees exhibits reduced variance; therefore, is more robust towards change in data and carries its prediction accuracy to new data. However, the algorithm does not work well for datasets having a lot of outliers, something which needs addressing prior to the model building.
 
+# Conclusion
 
+**In conclusion, this project demonstrated the potential of machine learning techniques to accurately predict the 10-year risk of future coronary heart disease (CHD) in patients using data from an ongoing cardiovascular study. Key points from this project include:**
+
+Careful data preprocessing and transformation improved the performance of machine learning models and enabled more accurate predictions.
+Feature selection was important for identifying the most relevant predictors of CHD risk.
+The Neural Network model (tuned) was chosen as the final prediction model due to its high recall score.
+Techniques such as SMOTE combined with Tomek links undersampling and standard scalar scaling were used to handle imbalanced data and improve model performance.
+This project provides a valuable example of how machine learning techniques can be applied to real-world problems to achieve positive business impact.
+Overall, this project highlights the importance of careful data preparation and analysis in machine learning projects. By taking the time to clean and transform the data, select relevant features, and choose an appropriate model, it is possible to achieve accurate predictions and support decision-making in a wide range of domains.
+
+# Challenges Faced
+
+We have outliers in our dataset which accounts for 14% of data. So instead of discarding them we chose to impute them with median values of respective features.
+
+We have 2 categorical features as string type which we labelled using label encoding.
+
+We have so many features irrelevant for our model so we Adjust them like putting id feature as index and Those which have multicollinearity and values lower than variance threshold, we discarded them from our model.
+
+Our target feature was highly Imbalanced. So, we use SMOTE to balance it before training.
+
+Some computations were complex and had to be done correctly since wrong computations would have led to loss of data.
 
 
