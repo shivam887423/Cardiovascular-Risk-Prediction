@@ -19,3 +19,46 @@ To handle the imbalanced nature of the dataset, the SMOTE combined with Tomek li
 Several machine learning models were evaluated on their performance on the primary evaluation metric of recall. After careful analysis, the Neural Network (tuned) was chosen as the final prediction model because it had the highest recall score among the models evaluated. By selecting a model with a high recall score, the goal was to correctly identify as many patients with CHD risk as possible, even if it meant having some false positives.
 
 Overall, this project demonstrated the potential of machine learning techniques to accurately predict CHD risk in patients using data from a cardiovascular study. By carefully preprocessing and transforming the data, selecting relevant features, and choosing an appropriate model based on its performance on a relevant evaluation metric, it was possible to achieve a positive business impact by accurately predicting CHD risk in patients.
+
+#  Dataset
+
+**Demographic:**
+
+• Sex: male or female ("M" or "F")
+
+• Age: Age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+
+**Behavioural** 
+
+• is smoking: whether or not the patient is a current smoker ("YES" or "NO")
+
+• Cigs Per Day: the number of cigarettes that the person smoked on average in one day. (Can be considered continuous as one can have any number of cigarettes, even half a cigarette.)
+
+**Medical(history)**
+
+• BP Meds: whether or not the patient was on blood pressure medication (Nominal)
+
+• Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)
+
+• Prevalent Hyp: whether or not the patient was hypertensive (Nominal)
+
+• Diabetes: whether or not the patient had diabetes (Nominal) Medical(current)
+
+• Tot Chol: total cholesterol level (Continuous)
+
+• Sys BP: systolic blood pressure (Continuous)
+
+• Dia BP: diastolic blood pressure (Continuous)
+
+• BMI: Body Mass Index (Continuous)
+
+• Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
+
+• Glucose: glucose level (Continuous) Predict variable (desired target) • 10-year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”) - DV
+
+Datasets: In this analysis we have used the following datasets.
+
+Cardiovascular_risk_df: This dataframe is a created directly from the given file and since data was not very large all the attributes were included in this single dataframe and manipulated throughout the process.
+
+# Exploratory Data Analysis
+
