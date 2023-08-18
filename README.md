@@ -80,3 +80,19 @@ EDA Visualization is performed by using seaborn libraries with various plots lik
 
 **Box Plot**
 
+# Graphs 
+
+**Cardiovascular Risk Prediction by Age and Systolic Blood Pressure**
+
+![image](https://github.com/Shivam-Pandey2/Cardiovascular-Risk-Prediction/assets/119883273/3496223d-c5bc-40a9-924a-4027e4b8d415)
+
+
+**Distribution of Age by Ten Year CHD**
+
+![image](https://github.com/Shivam-Pandey2/Cardiovascular-Risk-Prediction/assets/119883273/64f149dd-a9d3-4ee2-af47-36b494b0e017)
+
+**Number of Males with vs Female suffering from heart disease**
+
+![image](https://github.com/Shivam-Pandey2/Cardiovascular-Risk-Prediction/assets/119883273/05ec94c5-11c9-4452-8409-adaf5d2d7ae1)
+
+
