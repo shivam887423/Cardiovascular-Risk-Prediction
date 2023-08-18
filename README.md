@@ -95,4 +95,9 @@ EDA Visualization is performed by using seaborn libraries with various plots lik
 
 ![image](https://github.com/Shivam-Pandey2/Cardiovascular-Risk-Prediction/assets/119883273/05ec94c5-11c9-4452-8409-adaf5d2d7ae1)
 
+# Label Encoding:
+
+Machine Learning is performed only on numerical values, so there might be some column which do not have numerical values. Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering. We performed this technique on attributes sex and is smoking.
+
+
 
